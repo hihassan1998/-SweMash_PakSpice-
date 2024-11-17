@@ -1,0 +1,67 @@
+/** Navbar styling */
+.navbar {
+    z-index: 999;
+    /* border-bottom: 2px solid black; */
+    /* border-top: 4px solid black; */
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: sticky;
+    padding: 0 10px;
+    /* flex-basis: 10%; */
+    width: 100vw;
+    align-self: center;
+    border-bottom: 2px solid chartreuse; ;
+    /* background-color: green; */
+    /* background-color: yellow; */
+}
+/* Responsive design */
+@media (max-width: 786px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        justify-items: center;
+    }
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    justify-self: center;
+
+}
+
+.logo {
+    display: inline-block;
+    flex: 0 0 auto;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+a:hover {
+    transform: scale(1.05);
+    color: chartreuse;
+}
+
+.hovereffect:hover {
+    transform: scale(1.05);
+    color: chartreuse;
+}

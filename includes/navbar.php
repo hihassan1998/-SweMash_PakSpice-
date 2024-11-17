@@ -1,4 +1,4 @@
-<nav>
+<nav class="navbar">
     <ul>
         <li><a href="/index.php">Home</a></li>
         <li><a href="/pages/menu.php">Menu</a></li>
