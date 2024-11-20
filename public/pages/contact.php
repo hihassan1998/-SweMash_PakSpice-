@@ -3,20 +3,28 @@ $title = "Kontakta Oss"; ?>
 <?php include '../../app/includes/header.php' ?>
 
 
-<main>
+<main class="white-font" id="back-support">
+    <div class="container">
+        <h1 class="blue-title">Kontakta Oss</h1>
+        <p> Vi på SweMash PakSpice vill gärna höra från dig! Oavsett om du har frågor, vill boka bord eller diskutera samarbeten, är vi här för att hjälpa till. Vår restaurang är inte bara en plats för att njuta av mat – vi ser det som en mötesplats för människor att dela sina erfarenheter och skapa nya minnen.
 
-    <h1>Contact Us</h1>
-    <form action="/contact-form-handler.php" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required>
+            För att boka ett bord eller boka ett möte med vårt team, vänligen använd knapparna nedan.</p>
 
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required>
 
-        <label for="message">Your Message:</label>
-        <textarea id="message" name="message" required></textarea>
+        <h1 class="green-title">Boka Bord</h1>
+        <p>Vill du komma och njuta av våra fantastiska rätter? Boka ett bord och upplev en unik matupplevelse med oss.</p>
 
-        <button type="submit">Send</button>
-    </form>
+        <a href="./reservation.php">
+            <button class="btn-y">Bok ett bord</button>
+        </a>
+        <h1 class="yellow-title">Boka Ett Möte</h1>
+        <p>Är du intresserad av att diskutera samarbeten eller andra affärsmöjligheter? Vi erbjuder även möten för att prata om framtida möjligheter.</p>
+
+        <a href="./meeting.php">
+            <button class="btn-g">Bok mötet</button>
+        </a>
+
+    </div>
+
 </main>
 <?php include '../../app/includes/footer.php'; ?>

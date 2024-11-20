@@ -1,14 +1,30 @@
 /* General page styling */
 html {
+    position: relative;
     background-image: url('../img/burger-banner.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 100vh;
+    height: 100%;
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
+}
+
+html::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    filter: blur(10px);
+    z-index: -1;
 }
 
 /** Color palette */
@@ -170,10 +186,16 @@ ul {
     font-size: 2.5rem;
 }
 
-.white-font {
+.white-font-bold {
     color: #FFFFFF;
     font-weight: 900;
 }
+
+.white-font {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
 
 
 /** image container home+ about us */
@@ -186,6 +208,20 @@ ul {
     gap: 15px;
 }
 
+.image-container-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.image-container-banner img {
+    max-height: 450px;
+    width: auto;
+}
+
 /* Each image */
 .image-container img {
     width: 200px;
@@ -194,13 +230,51 @@ ul {
     flex-shrink: 0;
 }
 
-.home-images{
-    height: 50px; /* Adjust the height to fit your navbar */
-    width: auto;  /* Maintains the logo's aspect ratio */
-    object-fit: cover; /* Ensures the image looks good inside the space */
+.home-images {
+    height: 50px;
+    /* Adjust the height to fit your navbar */
+    width: auto;
+    /* Maintains the logo's aspect ratio */
+    object-fit: cover;
+    /* Ensures the image looks good inside the space */
 
 }
 
-.contact{
+.contact {
     background-color: blue;
+}
+
+#back-support {
+    background-color: rgba(83, 82, 82, 0.63);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+form .input{margin-bottom: 50px;} 
+
+.btn-g {
+    color: #FFCD00;
+    background-color: #01411C;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+        text-decoration: none;
+}
+
+.btn-y {
+    color:#01411C;
+    background-color: #FFCD00;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+
 }

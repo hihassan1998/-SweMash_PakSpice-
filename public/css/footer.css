@@ -14,7 +14,7 @@ footer {
     flex-direction: column;
     align-self: center;
     width: 100vw;
-padding-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 /* styling the footer into coloumbs and rows */
@@ -39,7 +39,7 @@ padding-bottom: 0px;
 
 .footer-marking {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
     left: 10px;
 }
