@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/forms.css">
-</head>
-<body>
-    <?php include '../includes/navbar.php'; ?>
+<?php
+$title = "Kontakta Oss"; ?>
+<?php include '../../app/includes/header.php' ?>
+
+
+<main>
+
     <h1>Contact Us</h1>
     <form action="/contact-form-handler.php" method="POST">
         <label for="name">Your Name:</label>
@@ -22,6 +18,5 @@
 
         <button type="submit">Send</button>
     </form>
-    <?php include '../includes/footer.php'; ?>
-</body>
-</html>
+</main>
+<?php include '../../app/includes/footer.php'; ?>

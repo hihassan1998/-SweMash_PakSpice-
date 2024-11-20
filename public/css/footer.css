@@ -14,6 +14,7 @@ footer {
     flex-direction: column;
     align-self: center;
     width: 100vw;
+padding-bottom: 0px;
 }
 
 /* styling the footer into coloumbs and rows */
