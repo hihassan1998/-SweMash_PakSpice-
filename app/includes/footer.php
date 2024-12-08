@@ -15,7 +15,7 @@
     </div>
 <div class="col">
         <div class="footer-marking">
-            <img class="" src="../img/sp-logo-trans.png" style="width:75px;" alt="">
+            <img class="" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
         <p>Denna sida är upphovsrättsskyddad &copy; SweMash PakSpice 2024</p>
 
     </div>

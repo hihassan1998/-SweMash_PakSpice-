@@ -1,7 +1,7 @@
 <nav class="navbar">
     <ul>
         <li>
-            <img class="logo" src="../img/sp-logo-trans.png" style="width:75px;" alt="">
+            <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
         </li>
         <li><a href="./home.php">Home</a></li>
 
@@ -19,8 +19,8 @@
         <li class="dropdown">
             <a href="./contact.php">Kontakt</a>
             <ul class="dropdown-menu">
-                <li><a href="./reservation.php">Boka Bord</a></li>
-                <li><a href="./reservation.php">Boka Ett Möte</a></li>
+                <li><a href="./meeting.php">Boka Bord</a></li>
+                <li><a href="./meeting.php">Boka Ett Möte</a></li>
             </ul>
         </li>
 
