@@ -41,14 +41,22 @@ $title = "Hem";
                     </div>
                 </div>
                 <div class="part">
-                    <h1 class="blue-title" id="special-heading">Välkommen till SweMash PakSpice!</h1>
-                    <p class="white-font">
-                        <strong>
-                            SweMash PakSpice
-                        </strong> är din lokala oas för läckra fusionrätter. Vi för med oss de rika smakerna från Pakistan till Sverige med ett urval av spännande rätter, från traditionella pakistanska favoriter till bekanta snabbmatsrätter som hamburgare för dem som vill prova något nytt men inte alltför exotiskt.
-                        Vi grundades som en matbil 2022 och har snabbt blivit en favorit bland matälskare i staden, och nu är vi redo att välkomna dig till vår mysiga restaurang. Följ med oss på en unik matupplevelse där svensk enkelhet möter pakistansk krydda.
-                    </p>
+                    <h1 class="yellow-title" id="special-heading">Välkommen till SweMash PakSpice!</h1>
+                    <h1 class="green-title" id="special-heading">! سوی میش پاک اسپائس</h1>
+                    <h1 class="blue-title" id="special-heading">Welcome to SweMash PakSpice!</h1>
+                    </h1>
                 </div>
+            </div>
+
+            <div class="part">
+                <p class="yellow-font" id="back-support">
+
+
+                    <strong>
+                        SweMash PakSpice
+                    </strong> är din lokala oas för läckra fusionrätter. Vi för med oss de rika smakerna från Pakistan till Sverige med ett urval av spännande rätter, från traditionella pakistanska favoriter till bekanta snabbmatsrätter som hamburgare för dem som vill prova något nytt men inte alltför exotiskt.
+                    Vi grundades som en matbil 2022 och har snabbt blivit en favorit bland matälskare i staden, och nu är vi redo att välkomna dig till vår mysiga restaurang. Följ med oss på en unik matupplevelse där svensk enkelhet möter pakistansk krydda.
+                </p>
             </div>
         </div>
         <div class="contactlayout">
@@ -80,7 +88,7 @@ $title = "Hem";
                     <p class="white-title">Månadens maträtt:
                     </p>
                     <p class="green-title">Prova en ny pakistansk rätt varje månad.</p>
-
+                    <a href="./contact.php"><button class="btn-y2">Meny</button></a>
                 </div>
 
             </div>

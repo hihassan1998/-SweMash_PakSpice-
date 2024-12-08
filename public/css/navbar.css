@@ -14,8 +14,8 @@
     width: 100vw;
     align-self: center;
     border-bottom: 2px solid chartreuse; ;
-
 }
+
 /* Responsive design */
 @media (max-width: 786px) {
     .navbar{

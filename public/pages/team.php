@@ -29,7 +29,7 @@ $title = "Vår team";
                 </div>
             </div>
         </div>
-        
+
         <div id="back-support">
             <div class="contactlayout">
                 <div class="part">
@@ -67,9 +67,6 @@ $title = "Vår team";
         <div id="back-support">
             <div class="contactlayout">
                 <div class="part">
-                    <img src="../img/team/chef3.jpg" alt="">
-                </div>
-                <div class="part">
                     <h2 class="white-title">Fatima Ali
                     </h2>
                     <p class="white-font" id="text-left">
@@ -78,7 +75,9 @@ $title = "Vår team";
                         "Kaffe är mer än bara en dryck—det är en upplevelse. Jag ser till att varje kopp ger en känsla av värme och omtanke.
                     </p>
                 </div>
-
+                <div class="part">
+                    <img src="../img/team/chef3.jpg" alt="">
+                </div>
             </div>
         </div>
 
