@@ -9,30 +9,6 @@ $title = "Hem";
 
 <main>
     <div class="container">
-
-        <!-- <div class="row">
-            <div class="col">
-                <h1 class="blue-title" id="special-heading">Välkommen till SweMash PakSpice!</h1>
-                <p class="white-title">
-                    SweMash PakSpice är din lokala oas för läckra fusionrätter. Vi för med oss de rika smakerna från Pakistan till Sverige med ett urval av spännande rätter, från traditionella pakistanska favoriter till bekanta snabbmatsrätter som hamburgare för dem som vill prova något nytt men inte alltför exotiskt.
-                    Vi grundades som en matbil 2022 och har snabbt blivit en favorit bland matälskare i staden, och nu är vi redo att välkomna dig till vår mysiga restaurang. Följ med oss på en unik matupplevelse där svensk enkelhet möter pakistansk krydda.</p>
-            </div>
-            <div class="image-container">
-                <div>
-                    <img src="../img/bun-green.jpg" alt="">
-                </div>
-                <div>
-                    <img src="../img/bun-chick-kebab.jpg" alt="">
-                </div>
-                <div>
-                    <img src="../img/bun-hallomi.jpg" alt="">
-                </div>
-                <div>
-                    <img src="../img/bun-beef-double.jpg" alt="">
-                </div>
-            </div>
-        </div> -->
-
         <div>
             <div class="contactlayout">
                 <div class="part">
@@ -41,15 +17,14 @@ $title = "Hem";
                     </div>
                 </div>
                 <div class="part">
-                    <h1 class="yellow-title" id="special-heading">Välkommen till SweMash PakSpice!</h1>
-                    <h1 class="green-title" id="special-heading">! سوی میش پاک اسپائس</h1>
-                    <h1 class="blue-title" id="special-heading">Welcome to SweMash PakSpice!</h1>
-                    </h1>
+                    <h1 class="yellow-title special-heading">Välkommen till SweMash PakSpice!</h1>
+                    <h1 class="green-title special-heading">! سوی میش پاک اسپائس</h1>
+                    <h1 class="blue-title special-heading">Welcome to SweMash PakSpice!</h1>
                 </div>
             </div>
 
             <div class="part">
-                <p class="yellow-font" id="back-support">
+                <p class="yellow-font back-support">
 
 
                     <strong>
@@ -60,42 +35,41 @@ $title = "Hem";
             </div>
         </div>
         <div class="contactlayout">
-            <div class="part" id="back-support">
+            <div class="part back-support">
                 <h1 class="yellow-title">Enkel online-bokning och möjlighet att påverka menyn.</h1>
-                <a href="./contact.php">
-                    <button class="btn-y2">Bokning</button>
-                </a>
+                <p>
+
+                    <a href="./contact.php" class="btn-y2">Bokning </a>
+                </p>
             </div>
 
-            <div class="part" id="back-support">
+            <div class="part back-support">
                 <h2 class="blue-title">Exotiska smaker med en svensk twist.</h2>
-                <a href="./contact.php">
-                    <button class="btn-y2">Meny</button>
-                    <img src="../img/logo/sp-logo-trans.png" alt="">
+                <p>
 
-                </a>
-            </div>
+                    <a href="./contact.php" class="btn-y2">Meny
+                    </a>
+                </p>
+                <img src="../img/logo/sp-logo-trans.png" alt="">
+            </div><h1 class="blue-title special-heading">Welcome to SweMash PakSpice!</h1>
 
         </div>
 
-        <div id="back-support">
+        <div class="back-support">
             <div class="contactlayout">
                 <div class="part">
                     <img src="../img/nobgfood9.png" alt="">
                 </div>
                 <div class="part">
-                    <!-- <h1 class="green-title"> Höjd punkt:</h1> -->
-                    <p class="white-title">Månadens maträtt:
-                    </p>
+                    <p class="blue-title">Månadens maträtt:</p>
                     <p class="green-title">Prova en ny pakistansk rätt varje månad.</p>
-                    <a href="./contact.php"><button class="btn-y2">Meny</button></a>
+                    <p>
+                        <a href="./contact.php" class="btn-y2">Meny</a>
+                    </p>
                 </div>
 
             </div>
         </div>
-
-
-
 
 
 
