@@ -13,4 +13,4 @@ COPY app /var/www/html/app
 COPY index.php /var/www/html/index.php
 
 # Expose port 80 for HTTP traffic
-EXPOSE 81
+EXPOSE 80
