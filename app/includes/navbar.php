@@ -6,6 +6,8 @@
         <img class="" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
     </div> -->
 
+    <!-- navbar menu  -->
+
     <ul class="navbar-menu">
         <li>
             <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
@@ -14,7 +16,7 @@
 
         <li><a href="./menu.php">Menu</a></li>
 
-        <!-- Contact menu item with dropdown -->
+        <!-- menu item with dropdown -->
         <li class="dropdown">
             <a href="./about.php">About Us</a>
             <ul class="dropdown-menu">
