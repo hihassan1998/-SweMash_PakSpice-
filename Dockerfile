@@ -5,9 +5,6 @@ FROM php:8.0-apache
 WORKDIR /var/www/html
 
 # Copy the application files to the web server directory
-COPY config /var/www/html/config
-COPY db /var/www/html/db
-COPY img /var/www/html/img
 COPY public /var/www/html/public
 COPY app /var/www/html/app
 COPY index.php /var/www/html/index.php
