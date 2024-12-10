@@ -26,12 +26,8 @@
 
 
 
-
-
-
-
-
         <li><a href="./recept.php">Recept</a></li>
 
     </ul>
+    
 </nav>
