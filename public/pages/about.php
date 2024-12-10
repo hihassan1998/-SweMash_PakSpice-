@@ -41,8 +41,8 @@ $title = "Om oss"
 
 
 
-    <div id="back-support">
-        <div id="back-support">
+    <div class="back-support">
+        <div class="back-support">
 
 
             <h1 class="white-title">Vem vi är:</h1>
@@ -54,7 +54,7 @@ $title = "Om oss"
         <div class="image-container-banner">
             <img src="../img/food-truck.jpg" alt="">
         </div>
-        <div id="back-support">
+        <div class="back-support">
             <h1 class="white-title">Vår vision</h1>
             <p class="white-font">
                 Vår målsättning är att erbjuda en unik matupplevelse som speglar det bästa av både pakistansk och svensk kultur. Vi vill bli en mötesplats för människor från alla bakgrunder där man kan njuta av god mat, utmärkt service och en känsla av gemenskap.

@@ -323,7 +323,7 @@ ul {
     background-color: blue;
 }
 
-#back-support {
+.back-support {
     background-color: rgba(83, 82, 82, 0.63);
     backdrop-filter: blur(10px);
     border-radius: 5px;
@@ -338,12 +338,13 @@ form .input {
 .btn-g {
     color: #FFCD00;
     background-color: #01411C;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    padding: 7px;
 }
 
 a {
@@ -353,11 +354,13 @@ a {
 .btn-y {
     color: #01411C;
     background-color: #FFCD00;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
     cursor: pointer;
+    padding: 7px;
+
 }
 
 /* contact styling starts */
@@ -414,7 +417,7 @@ a {
     font-weight: 600;
     /* height: 250px; */
     gap: 25px;
-    overflow: none;
+    overflow: hidden;
     object-fit: cover;
 }
 
@@ -427,7 +430,7 @@ a {
     font-weight: 600;
     height: auto;
     gap: 25px;
-    overflow: none;
+    overflow: hidden;
     object-fit: cover;
 }
 
@@ -497,11 +500,8 @@ a {
     grid-row: 9;
 }
 
-
-
-
-
-
-
-
 /* menu styling ends */
+/* form styling */
+.label{
+    margin-bottom: 50px;
+}

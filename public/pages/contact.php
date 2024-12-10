@@ -3,7 +3,7 @@ $title = "Kontakta Oss"; ?>
 <?php include '../../app/includes/header.php' ?>
 
 
-<main class="white-font" id="back-support">
+<main class="white-font back-support">
     <div class="container">
         <div class="contactlayout">
             <div class="part">
@@ -19,22 +19,20 @@ $title = "Kontakta Oss"; ?>
 
 
 
-        <div id="back-support">
+        <div class="back-support">
             <h1 class="yellow-title">Boka Ett Möte</h1>
             <p>Är du intresserad av att diskutera samarbeten eller andra affärsmöjligheter? Vi erbjuder även möten för att prata om framtida möjligheter.</p>
 
-            <a href="./meeting.php">
-                <button class="btn-g">Bok mötet</button>
+            <a href="./meeting.php" class="btn-g">Bok mötet
             </a>
         </div>
 
-        <div id="back-support">
+        <div class="back-support">
             <h1 class="green-title">Boka Bord</h1>
             <p>Planerar du att äta hos oss? Se till att boka bord i förväg för att säkerställa att du får bästa platsen i restaurangen! Fyll bara i formuläret nedan med dina uppgifter, så bekräftar vi din bokning så snart som möjligt.</p>
 
 
-            <a href="./meeting.php">
-                <button class="btn-y">Bok ett bord</button>
+            <a href="./meeting.php" class="btn-y">Bok ett bord
             </a>
             <p>Vill du komma och njuta av våra fantastiska rätter? Boka ett bord och upplev en unik matupplevelse med oss.</p>
         </div>

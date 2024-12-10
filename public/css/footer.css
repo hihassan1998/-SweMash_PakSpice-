@@ -26,6 +26,8 @@ footer {
     padding: 0 15px;
     text-align: center;
     justify-content: center;
+    margin-bottom: 5px;
+    gap: 2px;
 }
 
 
@@ -34,6 +36,17 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+.row-form {
+    font-size: 1.25rem;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 
@@ -53,7 +66,7 @@ footer {
     gap: 25px;
     align-items: center;
 }
-  
+
 
 /* styling text possition, and lists */
 .row p {
