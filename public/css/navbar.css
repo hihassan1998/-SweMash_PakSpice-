@@ -1,8 +1,6 @@
 /** Navbar styling */
 .navbar {
     z-index: 999;
-    /* border-bottom: 2px solid black; */
-    /* border-top: 4px solid black; */
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     top: 0;
@@ -10,23 +8,87 @@
     right: 0;
     position: sticky;
     padding: 0 10px;
-    /* flex-basis: 10%; */
     width: 100vw;
     align-self: center;
-    border-bottom: 2px solid chartreuse; ;
+    border-bottom: 2px solid chartreuse;
+    ;
 }
 
-/* Responsive design */
+.hamburger-menu {
+    display: none;
+}
+
 @media (max-width: 786px) {
-    .navbar{
+
+    /* Hide the menu by default on small screens */
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+
+    /* Show menu when active */
+    .navbar-menu.active {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Hamburger menu button */
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 2rem;
+        font-weight: 900;
+        background: none;
+        cursor: pointer;
+        z-index: 1100;
+        margin: 15px;
+        /* border: 5px solid #FFCD00; */
+        border: 5px solid green;
+        border-radius: 60%;
+        color: #FFCD00;
+        padding: 5px 5px;
+    }
+    .hamburger-menu ul li{
+        padding:50px;
+    }
+
+    nav ul li {
+        margin-bottom: 5px;
+
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+    }
+
+    .dropdown-menu li {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 786px) {
+    .navbar {
         display: flex;
         flex-direction: column;
     }
+
     .main {
         justify-items: center;
     }
 
 }
+
 .logo {
     display: inline-block;
     flex: 0 0 auto;
@@ -41,8 +103,7 @@ nav ul {
 }
 
 .navbar img {
-    height: 50px; /* Adjust the height to fit your navbar */
-    width: auto;  /* Maintains the logo's aspect ratio */
+    width: auto;
     object-fit: contain;
     object-fit: cover;
     flex-shrink: 0;
@@ -51,7 +112,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 10px 10px;
     font-size: large;
     font-weight: bold;
 }
@@ -71,13 +132,13 @@ a:hover {
 .navbar .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%; /* Position it directly below the parent list item */
+    top: 100%;
     left: 0;
     background-color: yellow;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     min-width: 150px;
     padding: 10px 0;
-    z-index: 10; /* Ensures it appears above other elements */
+    z-index: 10;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -100,10 +161,10 @@ a:hover {
 }
 
 .dropdown-menu li a:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
+    background-color: #f0f0f0;
 }
 
 
 .navbar .dropdown {
-    position: relative; /* For absolute positioning of the dropdown menu */
+    position: relative;
 }

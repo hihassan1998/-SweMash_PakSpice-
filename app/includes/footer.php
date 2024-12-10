@@ -1,3 +1,11 @@
+<script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navbarMenu = document.querySelector('.navbar-menu');
+
+    hamburgerMenu.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+    });
+</script>
 <footer>
     <div class="row">
         <div class="col">
@@ -13,13 +21,16 @@
         </div>
 
     </div>
-<div class="col">
+    <div class="col">
         <div class="footer-marking">
-            <img class="" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
-        <p>Denna sida är upphovsrättsskyddad &copy; SweMash PakSpice 2024</p>
+            <div class="part">
 
+                <img class="" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
+            </div>
+            <p>Denna sida är upphovsrättsskyddad &copy; SweMash PakSpice 2024</p>
+
+        </div>
     </div>
-</div>
 
 
 </footer>

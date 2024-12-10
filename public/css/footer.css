@@ -31,6 +31,22 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 786px) {
+    .row2{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
 
 /* styling text possition, and lists */
 .row p {

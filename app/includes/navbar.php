@@ -1,5 +1,12 @@
 <nav class="navbar">
-    <ul>
+    <button class="hamburger-menu">&#9776;</button>
+
+    <!-- <div class="part">
+
+        <img class="" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
+    </div> -->
+
+    <ul class="navbar-menu">
         <li>
             <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
         </li>
@@ -29,5 +36,5 @@
         <li><a href="./recept.php">Recept</a></li>
 
     </ul>
-    
+
 </nav>
