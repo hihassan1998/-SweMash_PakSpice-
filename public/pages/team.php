@@ -1,6 +1,9 @@
 <?php
+// Setting the title of the page
+
 $title = "Vår team";
 ?>
+<!-- Include the header file -->
 
 <?php include '../../app/includes/header.php' ?>
 
@@ -10,8 +13,8 @@ $title = "Vår team";
 <main>
 
     <div class="container">
+        <!-- Team members container -->
         <h1 class="yellow-title">Möt vår team</h1>
-
         <div class="back-support">
             <div class="contactlayout">
                 <div class="part">
@@ -29,7 +32,7 @@ $title = "Vår team";
                 </div>
             </div>
         </div>
-
+        <!-- Team member container -->
         <div class="back-support">
             <div class="contactlayout">
                 <div class="part">
@@ -46,7 +49,7 @@ $title = "Vår team";
                 </div>
             </div>
         </div>
-
+        <!-- Team member container -->
         <div class="back-support">
             <div class="contactlayout">
                 <div class="part">
@@ -61,9 +64,9 @@ $title = "Vår team";
                         "Mat är konst, och vi strävar efter att skapa rätter som inte bara smakar fantastiskt, utan som också berättar en historia om kultur och passion."
                     </p>
                 </div>
-
             </div>
         </div>
+        <!-- Team member container -->
         <div class="back-support">
             <div class="contactlayout">
                 <div class="part">
@@ -80,9 +83,10 @@ $title = "Vår team";
                 </div>
             </div>
         </div>
-
     </div>
 </main>
 
 
-<?php include '../../app/includes/footer.php' ?>
+<?php
+// Include the footer file
+include '../../app/includes/footer.php' ?>

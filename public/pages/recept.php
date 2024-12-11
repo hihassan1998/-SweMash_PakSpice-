@@ -1,6 +1,9 @@
 <?php
+// Setting the title of the page
+
 $title = "Recept";
 ?>
+<!-- Include the header file -->
 
 <?php include '../../app/includes/header.php' ?>
 
@@ -8,11 +11,11 @@ $title = "Recept";
 
 
 <main>
+    <!-- Recipies container -->
     <div class="container">
-
+        <!-- Recipies container item -->
         <div class="col">
             <div class="row">
-
                 <div class="back-support">
                     <img src="../img/bun-beef-double.jpg" alt="">
                     <h1 class="white-title">Klassisk Cheeseburgare</h1>
@@ -57,6 +60,7 @@ $title = "Recept";
                 </div>
             </div>
         </div>
+        <!-- Recipies container item -->
         <div class="row">
 
             <div class="back-support">
@@ -120,5 +124,5 @@ $title = "Recept";
     </div>
 </main>
 
-
+<!-- Include the footer file -->
 <?php include '../../app/includes/footer.php' ?>

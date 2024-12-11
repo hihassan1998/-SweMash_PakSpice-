@@ -1,18 +1,23 @@
 <?php
-
+// Setting the title of the page
 $title = "Om oss"
+
 ?>
+<!-- Include the header.php -->
 <?php include '../../app/includes/header.php' ?>
 
 <main>
-
+    <!-- Main heading for the About Us page -->
     <h1 class="white-font">About Us</h1>
+    <!-- foto-galleri links to the gallery page -->
     <p class="white-font">Utförska våra smakrikarätter i <a href="./galleri.php">
-            foto-galleri
-        </a></p>
+            foto-galleri</a>
+    </p>
 
+
+    <!-- Image gallery container -->
     <div class="image-container">
-
+        <!-- Each image links to the gallery page -->
         <div>
             <a href="./galleri.php">
                 <img src="../img/bun-green.jpg" alt="">
@@ -40,11 +45,9 @@ $title = "Om oss"
     </div>
 
 
-
     <div class="back-support">
+        <!-- Section about the restaurant -->
         <div class="back-support">
-
-
             <h1 class="white-title">Vem vi är:</h1>
             <p class="white-font">
                 På SweMash PakSpice är vi passionerade över att introducera autentisk pakistansk mat för en bredare publik, med en touch av svensk påverkan. Vår restaurangs resa började som en matbil 2022, där vi serverade den lokala gemenskapen ett urval av smakrika rätter från Pakistan, tillsammans med klassiska hamburgare för de som vill utforska nya smaker utan att ge sig in på det exotiska.
@@ -54,6 +57,7 @@ $title = "Om oss"
         <div class="image-container-banner">
             <img src="../img/food-truck.jpg" alt="">
         </div>
+        <!-- Section about the vision -->
         <div class="back-support">
             <h1 class="white-title">Vår vision</h1>
             <p class="white-font">
@@ -70,4 +74,7 @@ $title = "Om oss"
 
 </main>
 
-<?php include '../../app/includes/footer.php' ?>
+<?php
+// Include the footer file
+include '../../app/includes/footer.php'
+?>

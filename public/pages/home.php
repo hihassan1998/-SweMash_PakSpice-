@@ -1,6 +1,9 @@
 <?php
+// Setting the title of the page
+
 $title = "Hem";
 ?>
+<!-- Include the header file -->
 
 <?php include '../../app/includes/header.php' ?>
 
@@ -8,8 +11,10 @@ $title = "Hem";
 
 
 <main>
+    <!-- Main home page container -->
     <div class="container">
         <div>
+            <!--Home page Welcome message -->
             <div class="contactlayout">
                 <div class="part">
                     <div>
@@ -22,11 +27,9 @@ $title = "Hem";
                     <h1 class="blue-title special-heading">Welcome to SweMash PakSpice!</h1>
                 </div>
             </div>
-
+            <!--Home page message -->
             <div class="part">
                 <p class="yellow-font back-support">
-
-
                     <strong>
                         SweMash PakSpice
                     </strong> är din lokala oas för läckra fusionrätter. Vi för med oss de rika smakerna från Pakistan till Sverige med ett urval av spännande rätter, från traditionella pakistanska favoriter till bekanta snabbmatsrätter som hamburgare för dem som vill prova något nytt men inte alltför exotiskt.
@@ -34,6 +37,7 @@ $title = "Hem";
                 </p>
             </div>
         </div>
+        <!--Home page advert -->
         <div class="contactlayout">
             <div class="part back-support">
                 <h1 class="yellow-title">Enkel online-bokning och möjlighet att påverka menyn.</h1>
@@ -51,9 +55,9 @@ $title = "Hem";
                     </a>
                 </p>
                 <img src="../img/logo/sp-logo-trans.png" alt="">
-            </div><h1 class="blue-title special-heading">Welcome to SweMash PakSpice!</h1>
-
+            </div>
         </div>
+        <!--Home page advert -->
 
         <div class="back-support">
             <div class="contactlayout">
@@ -72,10 +76,8 @@ $title = "Hem";
         </div>
 
 
-
-
     </div>
 </main>
 
-
+<!-- Include the footer file -->
 <?php include '../../app/includes/footer.php' ?>
