@@ -32,7 +32,7 @@ html::before {
 Green (#01411C): Use for primary accents, buttons, or background sections.
 White (#FFFFFF): Use as a neutral base for text backgrounds or spaces.
 Blue (#005BAC): Complementary elements, such as headers, links, or sections.
-Yellow (#FFCD00): For highlights or call-to-action buttons (e.g., "Order Now").
+Yellow (#FFCD00): For highlights or call-to-action buttons.
 */
 
 body {
@@ -114,18 +114,8 @@ img {
     text-align: left;
 }
 
-.col-mag h1,
-h2 {
-    text-align: center;
-}
-
 .text-left {
     text-align: left !important;
-}
-
-.bildtext-m {
-    text-align: center;
-    font-weight: bold;
 }
 
 
@@ -169,7 +159,7 @@ ul {
     }
 }
 
-/* Responsive design */
+/* Responsive design ends */
 
 
 
@@ -196,7 +186,7 @@ ul {
 }
 
 
-/* titles */
+/* title and fonts */
 .green-title {
     color: green;
 }
@@ -310,11 +300,8 @@ ul {
 
 .home-images {
     height: 50px;
-    /* Adjust the height to fit your navbar */
     width: auto;
-    /* Maintains the logo's aspect ratio */
     object-fit: cover;
-    /* Ensures the image looks good inside the space */
 
 }
 
@@ -501,6 +488,7 @@ a {
 }
 
 /* menu styling ends */
+
 /* form styling */
 .label{
     margin-bottom: 50px;
