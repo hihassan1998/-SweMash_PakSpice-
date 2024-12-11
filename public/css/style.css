@@ -89,11 +89,8 @@ main {
 /* General styles for all images */
 img {
     max-width: 100%;
-    /* Prevents images from exceeding the width of their container */
     height: auto;
-    /* Maintains the aspect ratio */
     display: block;
-    /* Removes any default spacing around images */
 }
 
 
@@ -385,7 +382,6 @@ a {
 .price {
     font-size: 1.5rem;
     color: #FFCD00;
-    /* Highlight price with a different color */
     font-weight: bold;
 }
 
