@@ -67,9 +67,6 @@
         margin-bottom: 5px;
 
     }
-    nav ul {
-
-    }
 
     .dropdown-menu {
         position: static;
@@ -120,6 +117,9 @@
     display: inline-block;
     flex: 0 0 auto;
     vertical-align: middle;
+}
+.logo:hover{
+    cursor: pointer;
 }
 
 nav ul {

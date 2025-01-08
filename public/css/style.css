@@ -167,9 +167,10 @@ ul {
 
 /* title and fonts */
 .green-title {
-    color: green;
-}
+    /* color: green; */
+    color: #01411C;
 
+}
 
 .yellow-title {
     color: #FFCD00;
@@ -197,8 +198,12 @@ ul {
     color: #c7c7c7;
 }
 
+
+
+
 .green-title:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    font-size: 4.5rem;
     color: #01411C;
 }
 
@@ -208,7 +213,8 @@ ul {
 }
 
 .yellow-title:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    font-size: 4.5rem;
     color: #FFCD00;
 }
 
@@ -218,7 +224,8 @@ ul {
 }
 
 .blue-title:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    font-size: 4.5rem;
     color: #005BAC;
 }
 
@@ -235,8 +242,6 @@ ul {
     color: #FFFFFF;
     font-weight: 500;
 }
-
-
 
 
 /** image container home+ about us */

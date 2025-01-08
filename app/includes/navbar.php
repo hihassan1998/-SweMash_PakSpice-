@@ -10,7 +10,9 @@
 
     <ul class="navbar-menu">
         <li>
+        <a href="./home.php">
             <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
+        </a>
         </li>
         <li><a href="./home.php">Home</a></li>
 
