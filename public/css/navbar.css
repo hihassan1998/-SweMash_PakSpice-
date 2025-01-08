@@ -37,7 +37,8 @@
     /* Show menu when active */
     .navbar-menu.active {
         display: flex;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: baseline;
     }
 
     /* Hamburger menu button */
@@ -57,12 +58,16 @@
         color: #FFCD00;
         padding: 5px 5px;
     }
-    .hamburger-menu ul li{
-        padding:50px;
-    }
+
+    /* .hamburger-menu ul li {
+        padding: 50px;
+    } */
 
     nav ul li {
         margin-bottom: 5px;
+
+    }
+    nav ul {
 
     }
 
@@ -70,13 +75,11 @@
         position: static;
         box-shadow: none;
     }
-
+/* 
     .dropdown-menu li {
         padding: 10px;
-    }
-}
+    } */
 
-@media (max-width: 786px) {
     .navbar {
         display: flex;
         flex-direction: column;
@@ -85,9 +88,30 @@
     .main {
         justify-items: center;
     }
-    .navbar .dropdown:hover .dropdown-menu {
+
+    /* .navbar .dropdown:hover .dropdown-menu {
         display: flex;
         flex-direction: column;
+    } */
+
+    /** changes made accoring to the recomendations */
+    
+    /* .dropdown-menu li {
+        padding: 10px 20px;
+    } */
+    .dropdown-menu li {
+        padding: 10px;
+    }
+    .dropdown-menu li a {
+        color: #000000;
+        font-weight: bold;
+    }
+    .navbar .dropdown-menu {
+        display: block !important;
+        position: static !important;
+        background-color: transparent;
+        box-shadow: none !important;
+        padding: 0;
     }
 
 }
@@ -102,7 +126,7 @@ nav ul {
     list-style: none;
     padding: 0;
     justify-self: center;
-
+    padding-left: 25px;
 }
 
 .navbar img {
@@ -169,7 +193,7 @@ a:hover {
 
 .dropdown-menu li a:hover {
     /* background-color: #f0f0f0; */
-    background-color:  #005BAC;
+    background-color: #005BAC;
 }
 
 
