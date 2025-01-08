@@ -14,15 +14,15 @@
             <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
         </a>
         </li>
-        <li><a href="./home.php">Home</a></li>
+        <li><a href="./home.php">Hem</a></li>
 
-        <li><a href="./menu.php">Menu</a></li>
+        <li><a href="./menu.php">Meny</a></li>
 
         <!-- menu item with dropdown -->
         <li class="dropdown">
-            <a href="./about.php">About Us</a>
+            <a href="./about.php">Om oss</a>
             <ul class="dropdown-menu">
-                <li><a href="./team.php">Anställd</a></li>
+                <li><a href="./team.php">Anställda</a></li>
                 <li><a href="./galleri.php">Galleri</a></li>
             </ul>
         </li>

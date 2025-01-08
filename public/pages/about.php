@@ -8,7 +8,7 @@ $title = "Om oss"
 
 <main>
     <!-- Main heading for the About Us page -->
-    <h1 class="white-font">About Us</h1>
+    <h1 class="white-font">Om Oss</h1>
     <!-- foto-galleri links to the gallery page -->
     <p class="white-font">Utförska våra smakrikarätter i <a href="./galleri.php">
             foto-galleri</a>
