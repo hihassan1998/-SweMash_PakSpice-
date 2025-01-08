@@ -17,6 +17,11 @@ footer {
     padding-bottom: 0px;
 }
 
+.bold-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
 /* styling the footer into coloumbs and rows */
 .col {
     display: flex;
