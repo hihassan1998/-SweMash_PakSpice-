@@ -51,7 +51,7 @@ $title = "Hem";
                 <h2 class="blue-title">Exotiska smaker med en svensk twist.</h2>
                 <p>
 
-                    <a href="./contact.php" class="btn-y2">Meny
+                    <a href="./menu.php" class="btn-y2">Meny
                     </a>
                 </p>
                 <img src="../img/logo/sp-logo-trans.png" alt="">
@@ -68,7 +68,7 @@ $title = "Hem";
                     <p class="blue-title">Månadens maträtt:</p>
                     <p class="green-title">Prova en ny pakistansk rätt varje månad.</p>
                     <p>
-                        <a href="./contact.php" class="btn-y2">Meny</a>
+                        <a href="./menu.php" class="btn-y2">Meny</a>
                     </p>
                 </div>
 
