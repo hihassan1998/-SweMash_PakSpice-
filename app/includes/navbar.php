@@ -11,7 +11,7 @@
     <ul class="navbar-menu">
         <li>
         <a href="./home.php">
-            <img class="logo" src="../img/logo/sp-logo-trans.png" style="width:75px;" alt="">
+            <img class="logo" src="../img/logo/sp-logo-trans.png" alt="Go to Home Page" style="width:75px;">
         </a>
         </li>
         <li><a href="./home.php">Hem</a></li>
